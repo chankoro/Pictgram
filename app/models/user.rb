@@ -8,4 +8,6 @@ class User < ApplicationRecord
   has_secure_password
   VALID_PASSWORD_REGEX =/\A(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[\d])\w{8,32}\z/
   validates :password,format: { with: VALID_PASSWORD_REGEX, message:"は半角8~32文字英大文字・小文字・数字それぞれ１文字以上含む必要があります"}
-end
+  
+  has_many :topics
+ end
