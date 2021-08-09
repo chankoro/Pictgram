@@ -7,14 +7,15 @@
            <h2 class="topic-author">
              <%= topic.user.name %>
            </h2>
-           <%= image_tag topic.image.url %>
+             <%= image_tag topic.image.url %>
            <%= image_tag 'icons/heart-black.png', class:'topic-index-icon' %>
            <%= image_tag 'icons/comment.png', class:'topic-index-icon' %>
            <p class="topic-text">
              <%= topic.description %>
            </p>
-         </div>
+           </div>
        </div>
      </div>
+    <% end %>
   </div>
 </div>
