@@ -16,8 +16,13 @@ h1, h2 {
 
   &:hover {
     color:#fff;
+    box-shadow: 0 0 15px 5px #0ff;
    }
   }
+
+.btn-white:focus {
+  box-shadow: 0 0 15px 5px #fff;
+}
 
 .top-hero-wrapper {
   width: 100vw;
@@ -136,6 +141,13 @@ h1, h2 {
       width: 35px;
       height: 30px;
       margin-left: 20px;
+    }
+    .fa-heart {
+      margin-left: 10px;
+      font-size: 2em;
+      width: 35px;
+      height: 30px;
+      background-color :#FF99FF;
     }
   }
 }

@@ -13,10 +13,9 @@
           <%= f.label :description %>
           <%= f.text_area :description, class: 'form-control' %>
         </div>
-        
         <%= f.submit '投稿', class: 'btn btn-black btn-block' %>
-        
         <% end %>
+        <%= link_to "投稿一覧", :controller => "topics", :action => "index" %>
       </div>
     </div>
   </div>
