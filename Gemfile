@@ -78,5 +78,3 @@ gem 'bcrypt'
 gem 'carrierwave'
 
 gem 'fog-aws'
-
-
